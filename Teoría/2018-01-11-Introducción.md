@@ -31,6 +31,4 @@ http://repositori.uji.es/xmlui/handle/10234/102653
 
 https://inventwithpython.com/es/
 
-https://es.wikipedia.org/wiki/Historia_de_Python
 
-https://www.python.org/
