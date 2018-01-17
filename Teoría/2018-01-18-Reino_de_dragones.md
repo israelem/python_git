@@ -42,4 +42,4 @@ N
 Para facilitar el desarrollo del código se muestra un diagrama de flujo
 del juego.
 
-![Diagrama_flujo](Imágenes/Diagrama_flujo_reino_dragones.jpg)
+![Diagrama_flujo](https://inventwithpython.com/es/6_files/image003.jpg)
