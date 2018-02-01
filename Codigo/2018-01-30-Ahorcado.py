@@ -3,13 +3,11 @@ import random as rd
 IMÁGENES_AHORCADO = ['''
    +---+
    |   |
-
        |
        |
        |
        |
  =========''', '''
-
   +---+
    |   |
    O   |
@@ -17,7 +15,6 @@ IMÁGENES_AHORCADO = ['''
        |
        |
  =========''', '''
-
    +---+
    |   |
    O   |
@@ -25,7 +22,6 @@ IMÁGENES_AHORCADO = ['''
        |
        |
  =========''', '''
-
    +---+
    |   |
    O   |
@@ -33,7 +29,6 @@ IMÁGENES_AHORCADO = ['''
        |
        |
  =========''', '''
-
    +---+
    |   |
    O   |
@@ -41,7 +36,6 @@ IMÁGENES_AHORCADO = ['''
        |
        |
  =========''', '''
-
    +---+
    |   |
    O   |
@@ -49,7 +43,6 @@ IMÁGENES_AHORCADO = ['''
   /    |
        |
  =========''', '''
-
    +---+
    |   |
    O   |
@@ -60,9 +53,9 @@ IMÁGENES_AHORCADO = ['''
 
 PALABRAS = 'hormiga babuino tejon murcielago oso castor camello gato almeja cobra pantera coyote cuervo ciervo perro ' \
            'burro pato aguila huron zorro rana cabra ganso halcon leon lagarto llama topo mono alce raton mula ' \
-           'salamandra nutria buho panda loro paloma piton conejo carnero rata cuervo rinoceronte salmon foca tiburon ' \
-           'oveja mofeta perezoso serpiente araña cigüeña cisne tigre sapo trucha pavo tortuga comadreja ballena lobo ' \
-           'wombat cebra'.split()
+           'salamandra nutria buho panda loro paloma piton conejo carnero rata cuervo rinoceronte salmon foca ' \
+           'tiburon oveja mofeta perezoso serpiente araña cigüeña cisne tigre sapo trucha pavo tortuga comadreja ' \
+           'ballena lobo wombat cebra'.split()
 
 ABC = 'abcdefghijklmnñopqrstuvwxyz'
 
@@ -85,7 +78,7 @@ def leer_letra():
     letra = input().lower()
     correcto = False
     while not correcto:
-        if len(letra) < 1 and  letra.lower() not in ABC:
+        if len(letra) < 1 and letra.lower() not in ABC:
             letra = input('Escriba una letra: ').lower()
         elif letra.lower() in letras_incorrectas + letras_correctas:
             letra = input('Ya ha escrito esa letra, escriba otra: ').lower()
