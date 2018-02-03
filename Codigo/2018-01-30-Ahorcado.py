@@ -70,12 +70,11 @@ def mostrar_tablero(fallos, palabra_secreta, letras_correctas):
     for c in palabra_secreta:
         if c not in letras_correctas:
             palabra_guiones = palabra_guiones.replace(c, '_ ')
-    print(palabra_guiones)
-    print('Escriba una letra: ')
+    print(palabra_guiones, '\n')
 
 
 def leer_letra():
-    letra = input().lower()
+    letra = input('Escriba una letra: ').lower()
     correcto = False
     while not correcto:
         if len(letra) < 1 and letra.lower() not in ABC:
@@ -96,6 +95,8 @@ def comprobar_letra(letra_propuesta, palabra_secreta, letras_correctas, letras_i
         fallos += 1
         print('La letra no se encuentra en la palabra secreta')
 
+    return [fallos, letras_correctas, letras_incorrectas]
+
 
 def comprobar_palabra(palabra_secreta, letras_correctas):
     lista = [c for c in palabra_secreta if c not in letras_correctas]
@@ -111,5 +112,11 @@ if __name__ == '__main__':
     while fallos < (len(IMÁGENES_AHORCADO) - 1) and not acertado:
         mostrar_tablero(fallos, palabra_secreta, letras_correctas)
         letra_propuesta = leer_letra()
-        comprobar_letra(letra_propuesta, palabra_secreta, letras_correctas, letras_incorrectas, fallos)
+        fallos, letras_correctas, letras_incorrectas = comprobar_letra(letra_propuesta, palabra_secreta,
+                                                                       letras_correctas, letras_incorrectas, fallos)
         acertado = comprobar_palabra(palabra_secreta, letras_correctas)
+    if acertado:
+        print('Enhorabuena, has acertado la palabra secreta:', palabra_secreta)
+    else:
+        print(IMÁGENES_AHORCADO[fallos])
+        print('Lo siento, has perdido')
