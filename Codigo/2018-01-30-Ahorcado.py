@@ -69,7 +69,7 @@ def mostrar_tablero(fallos, palabra_secreta, letras_correctas):
     palabra_guiones = palabra_secreta
     for c in palabra_secreta:
         if c not in letras_correctas:
-            palabra_guiones.replace(c, '_')
+            palabra_guiones = palabra_guiones.replace(c, '_ ')
     print(palabra_guiones)
     print('Escriba una letra: ')
 
