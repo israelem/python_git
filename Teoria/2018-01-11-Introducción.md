@@ -14,11 +14,11 @@ En nuestro caso nos decantamos por Pycharm Edu, un IDE desarrollado por la empre
 
 Una vez instalado lo primero que vamos a hacer es crear un nuevo proyecto. Salvo que se indique lo contrario todos los proyectos se crean dentro de la carpeta PycharmProjects que se ubica en la carpeta del usuario y sea la home/usuario o C:\Users\Usuario en Linux o Windows respectivamente.
 
-![Bienvenida](Imagenes/2018-02-04-19-57-18.png)
+![Bienvenida](Imagenes/2018-02-04-19-57-18.png?raw=true)
 
 Una vez pulsado Create New Project, toca darle un nombre y es recomendable crear un virtual enviroment para el mismo o entorno virtual (esto se explica más adelante).
 
-![Nuevo_proyecto](Imagenes/2018-02-04-20-05-44.png)
+![Nuevo_proyecto](Imagenes/2018-02-04-20-05-44.png?raw=true)
 
 
 
