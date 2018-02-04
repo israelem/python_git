@@ -10,7 +10,16 @@ De todas las secciones, a la primera que debemos acudir es a la de descargas par
 
 Una vez descargado el instalador si estamos en Windows el proceso es muy sencillo, lo único que debemos es marcar la casilla para que añada la ruta del intérprete como variable del sistema de modo que cuando el una ventan de Símbolo del sistema escribamos python reconozca que nos referimos al intérprete del mismo. Una vez instalado, podemos comprobar que entre los nuevos programas aparecerá el llamado [IDLE](https://en.wikipedia.org/wiki/IDLE), que es el acrónimo de Intregated DeveLopment Environment. Como se indica es un entorno totalmente funcional para desarrollar en Python, sin embargo, no es el utilizado a nivel profesional, lo normal es buscar algún IDE como puede ser Pycharm, Ninja, Eclipse con PyDev o entornos más específicos como Anaconda.
 
-En nuestro caso nos decantamos por Pycharm, un IDE desarrollado por la empresa JetBrains
+En nuestro caso nos decantamos por Pycharm Edu, un IDE desarrollado por la empresa [JetBrains](https://www.jetbrains.com/), empresa con sede en la República Checa que desarrolla herramientas para diversos lenguajes de programación, además del lenguaje para desarrollo de Android, Kotlin. Específicamente para Python tienen tres versiones de Pycharm: [professional, community](https://www.jetbrains.com/pycharm/) y [educational](https://www.jetbrains.com/pycharm-edu/). De las cuales la primera es de pago y las otras dos gratuitas. Debido a que esta documentación tiene fines educativos para desarrollar los ejercicios utilizaremos la versión Edu, en la que cabe mencionar que facilita a estudiantes y profesores tanto seguir cursos prediseñados como crearlos todo ello gracias a la integración con el sitio [stepik](https://stepik.org/), especializado en creación de cursos por parte de sus usuarios.
+
+Una vez instalado lo primero que vamos a hacer es crear un nuevo proyecto. Salvo que se indique lo contrario todos los proyectos se crean dentro de la carpeta PycharmProjects que se ubica en la carpeta del usuario y sea la home/usuario o C:\Users\Usuario en Linux o Windows respectivamente.
+
+![Bienvenida](Imagenes/2018-02-04-19-57-18.png)
+
+Una vez pulsado Create New Project, toca darle un nombre y es recomendable crear un virtual enviroment para el mismo o entorno virtual (esto se explica más adelante).
+
+![Nuevo_proyecto](Imagenes/2018-02-04-20-05-44.png)
+
 
 
 
