@@ -99,16 +99,26 @@ def comprobar_letra(letra_propuesta, palabra_secreta, letras_correctas, letras_i
 
 
 def comprobar_palabra(palabra_secreta, letras_correctas):
+    """
+    Comprueba que hayamos acertado la palabra secreta
+    """
+    '''
+    lista = []
+    for c in palabra_secreta:
+        if c not in letras_correctas:
+            lista.append(c)
+    '''
     lista = [c for c in palabra_secreta if c not in letras_correctas]
+
     return len(lista) == 0
 
 
 if __name__ == '__main__':
-    palabra_secreta = generar_palabra_secreta()
     letras_correctas = ''
     letras_incorrectas = ''
     acertado = False
     fallos = 0
+    palabra_secreta = generar_palabra_secreta()
     while fallos < (len(IMÁGENES_AHORCADO) - 1) and not acertado:
         mostrar_tablero(fallos, palabra_secreta, letras_correctas)
         letra_propuesta = leer_letra()
