@@ -20,7 +20,13 @@ Una vez pulsado Create New Project, toca darle un nombre y es recomendable crear
 
 ![Nuevo_proyecto](Imagenes/2018-02-04-20-05-44.png?raw=true)
 
+# Entornos virtuales
 
+[Entornos virtuales en tutorial Python Argentina](http://docs.python.org.ar/tutorial/3/venv.html)
+
+# Tipos básicos
+
+# Instrucciones condicionales
 
 
 ## Material a seguir
