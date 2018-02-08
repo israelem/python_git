@@ -19,3 +19,4 @@ Después de listas y tuplas, el siguiente tipo estructurado que se debe conocer 
 
 [Extendiendo el ahorcado](https://inventwithpython.com/es/9.5.html)
 
+[Mapping Types — dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
