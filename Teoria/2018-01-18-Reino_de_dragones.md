@@ -43,3 +43,5 @@ Para facilitar el desarrollo del código se muestra un diagrama de flujo
 del juego.
 
 ![Diagrama_flujo](https://inventwithpython.com/es/6_files/image003.jpg)
+
+**Enlace:** [Capítulo 6 - Reino de Dragones](https://inventwithpython.com/es/6.html)

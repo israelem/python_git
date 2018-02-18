@@ -24,3 +24,4 @@ Intenta adivinar.
 ¡Buen trabajo, Alberto! ¡Has adivinado mi número en 3 intentos!
 ```
 
+**Enlace:** [Capítulo 4 - Adivina el número](https://inventwithpython.com/es/4.html)
