@@ -1,3 +1,5 @@
+# Buscaminas
+
 Se dispone de un tablero en el que hay localizadas un número determinado de minas. El objetivo del Buscaminas es encontrar todas las minas, sin descubrir ninguna. El juego
 acabará cuando queden sin descubrir tantas casillas como minas (éxito), o bien cuando se descubra una mina (fallo).
 
