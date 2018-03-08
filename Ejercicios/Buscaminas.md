@@ -1,6 +1,6 @@
 # Buscaminas
 
-Se dispone de un tablero en el que hay localizadas un número determinado de minas. El objetivo del Buscaminas es encontrar todas las minas, sin descubrir ninguna. El juego acabará cuando queden sin descubrir tantas casillas como minas (éxito), o bien cuando se descubra una mina (fallo). El número de minas se generará de forma aleatoria siendo éste entre un 20% y un 30% de las casillas.
+Se dispone de un tablero en el que hay localizadas un número determinado de minas. El objetivo del Buscaminas es encontrar todas las minas, sin descubrir ninguna. El juego acabará cuando queden sin descubrir tantas casillas como minas (éxito), o bien cuando se descubra una mina (fallo). El número de minas se generará de forma aleatoria siendo éste entre un 20% y un 30% de las casillas. El tamaño del tablero será fijo de 10x20.
 
 En cada momento se mostrará el contador de minas restantes y la configuración actual del tablero de juego.
 
