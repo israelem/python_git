@@ -36,7 +36,8 @@ Tendremos que importar el modulo _math_, perteneciente a la librería estándar 
 **5.** Cree una clase llamada _Segmento_. Sus atributos serán dos objetos de la clase _Punto_. Esos puntos tendrán el mismo origen de coordenadas.
 Como método tendrá _longitud_, que devolverá la distancia entre los dos puntos que componen el segmento.
 Ejecute un programa que cree un segmento, muestre la longitud de ese segmento y el punto más cercano al origen.
-NOTA: Si se reutiliza código ya hecho, este ejercicio se realiza en 20 lineas de código
+
+**NOTA:** Si se reutiliza código ya hecho, este ejercicio se realiza en 20 líneas de código
 
 **6.** Modifique la clase _Cuenta_ del ejercicio 1. Haga que el atributo saldo quede oculto. Cuando alguien desee leer ese atributo, debe escribir un número pin. Ese valor se introducirá como parámetro de la función _leer_saldo_, que agregará como nuevo método de la clase.
 El PIN para poder realizar la operación será 3210.
