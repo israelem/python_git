@@ -48,15 +48,6 @@ def mostrar_datos(t_externo):
         print(fila)
 
 
-def leer_movimiento():
-    fila, columna = [int(x) for x in input('Escribe fila y columna a descubrir: ').split()]
-    return [fila, columna]
-
-
-def calcular_movimiento():
-    pass
-
-
 def descubrir_casilla(t_interno, t_externo, fila, columna):
     for d_fila in range(-1, 2):
         for d_columna in range(-1, 2):
@@ -68,6 +59,17 @@ def descubrir_casilla(t_interno, t_externo, fila, columna):
                     descubrir_casilla(t_interno, t_externo, fila + d_fila, columna + d_columna)
                 elif t_interno[fila + d_fila][columna + d_columna] > 0:
                     t_externo[fila + d_fila][columna + d_columna] = t_interno[fila + d_fila][columna + d_columna]
+
+        
+def calcular_movimiento(t_interno, t_externo):
+    instrucción, fila, columna = [x for x in input('Introduzca código [d/m/?] fila y columna a descubrir: ').split()]
+    if instrucción == 'd':
+        if t_interno[fila][columna] != -1:
+            descubrir_casilla(t_interno, t_externo, fila, columna)
+    elif instrucción == 'm':
+        t_externo[fila][columna] = 'm'
+    elif instrucción == '?':
+        t_externo[fila][columna] = '?'
 
 
 if __name__ == '__main__':
@@ -81,6 +83,4 @@ if __name__ == '__main__':
     fin_juego = False
     while finaliza_juego(minas, cubiertas):
         mostrar_datos(t_externo)
-        coordenadas = leer_movimiento()
-        descubrir_casilla(t_interno, t_externo, coordenadas[0], coordenadas[1])
-        # calcular_movimiento()
+        calcular_movimiento(t_interno, t_externo)
